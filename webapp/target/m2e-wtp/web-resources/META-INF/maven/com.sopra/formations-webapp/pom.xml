@@ -34,13 +34,7 @@
 			<artifactId>formations-modele</artifactId>
 			<version>1.0-SNAPSHOT</version>
 		</dependency>
-
-		<dependency>
-			<groupId>com.sopra</groupId>
-			<artifactId>formations-modele</artifactId>
-			<version>1.0-SNAPSHOT</version>
-		</dependency>
-
+		
 		<dependency>
 			<groupId>org.jboss.resteasy</groupId>
 			<artifactId>resteasy-jaxrs</artifactId>

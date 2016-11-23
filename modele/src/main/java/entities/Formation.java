@@ -55,4 +55,9 @@ public class Formation {
 		return this.expectedStartingDate + " " + this.formationprovider + " " + this.location + " " + this.title;
 	}
 
+	public Integer getFormationId() {
+		// TODO Auto-generated method stub
+		return formationID;
+	}
+
 }

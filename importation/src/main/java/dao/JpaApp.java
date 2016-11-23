@@ -4,7 +4,6 @@ import java.util.List;
 
 import entities.Employee;
 import entities.Formation;
-import entities.FormationRequest;
 import jxlsimportation.Entry;
 
 public class JpaApp {

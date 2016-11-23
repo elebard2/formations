@@ -44,4 +44,9 @@ public class Employee {
 		return this.employeeID + " " + this.firstName + " " + this.lastName + " " + this.agenceID;
 	}
 
+	public Integer getEmployeeId() {
+		// TODO Auto-generated method stub
+		return employeeID;
+	}
+
 }
