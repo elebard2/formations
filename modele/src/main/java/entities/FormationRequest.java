@@ -61,4 +61,8 @@ public class FormationRequest {
 		return this.duration + " " + this.employee + " " + this.formationRequestID + " " + this.realStartingDate;
 	}
 
+	public Integer getFormationRequestId() {
+		return formationRequestID;
+	}
+
 }
