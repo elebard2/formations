@@ -10,6 +10,10 @@ import entities.FormationRequest;
 import jxlsimportation.Entry;
 
 public class FormationRequestDAO {
+	
+	public FormationRequestDAO(){
+		
+	}
 
 	public FormationRequest formationrequestInjector(Entry entry, Employee employee, Formation formation) {
 

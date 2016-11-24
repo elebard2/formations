@@ -9,6 +9,10 @@ import entities.Employee;
 import jxlsimportation.Entry;
 
 public class EmployeeDAO {
+	
+	public EmployeeDAO(){
+		
+	}
 
 	public Employee employeeInjector(Entry entry) {
 

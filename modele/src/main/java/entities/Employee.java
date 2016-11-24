@@ -9,8 +9,8 @@ import javax.persistence.Id;
 public class Employee {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Integer employeeID;
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer employeeId;
 
 	String lastName;
 	String firstName;
@@ -41,12 +41,12 @@ public class Employee {
 	}
 
 	public String toString() {
-		return this.employeeID + " " + this.firstName + " " + this.lastName + " " + this.agenceID;
+		return this.employeeId + " " + this.firstName + " " + this.lastName + " " + this.agenceID;
 	}
 
 	public Integer getEmployeeId() {
 		// TODO Auto-generated method stub
-		return employeeID;
+		return employeeId;
 	}
 
 }

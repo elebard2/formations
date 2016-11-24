@@ -9,6 +9,10 @@ import entities.Formation;
 import jxlsimportation.Entry;
 
 public class FormationDAO {
+	
+	public FormationDAO() {
+		
+	}
 
 	public Formation formationInjector(Entry entry) {
 		Formation formation = new Formation();

@@ -11,7 +11,7 @@ import javax.persistence.Id;
 public class Formation {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer formationID = null;
 
 	String title;
